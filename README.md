@@ -5,3 +5,4 @@ Basic JAVA:
 - Variables, Data Types, Literal, Type Conversion
 - Operators, Conditional Statements, Loops
 - Classes, Methods, Arrays
+- More about arrays
