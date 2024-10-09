@@ -9,3 +9,4 @@ Basic JAVA:
 - About Strings
 - About Static keyword
 - Encapsulation: constructor, getters and setters
+- Inheritance
