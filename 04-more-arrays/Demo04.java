@@ -7,9 +7,9 @@ class User {
 }
 
 /**
- * Demo
+ * Demo04
  */
-public class Demo {
+public class Demo04 {
     public static void main(String[] args) {
 
         int nums[][] = new int[4][]; // jagged
@@ -32,12 +32,12 @@ public class Demo {
             System.out.println();
         }
 
-        //array of objects
+        // array of objects
         User u1 = new User();
         u1.ID = 1;
         u1.name = "John";
-        
-        User u2 =new User();
+
+        User u2 = new User();
         u2.ID = 2;
         u2.name = "Mary";
 
@@ -45,9 +45,9 @@ public class Demo {
         users[0] = u1;
         users[1] = u2;
 
-        for(User u : users){
-            System.out.println(u.ID + " : " + u.name);            
+        for (User u : users) {
+            System.out.println(u.ID + " : " + u.name);
         }
-        
+
     }
 }

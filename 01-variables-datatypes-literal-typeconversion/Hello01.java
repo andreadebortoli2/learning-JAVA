@@ -1,7 +1,7 @@
 /**
- * Hello
+ * Hello01
  */
-public class Hello {
+public class Hello01 {
 
     public static void main(String[] args) {
 

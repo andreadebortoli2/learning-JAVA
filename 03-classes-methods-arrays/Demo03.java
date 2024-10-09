@@ -16,9 +16,9 @@ class Calculator {
 }
 
 /**
- * Demo
+ * Demo03
  */
-public class Demo {
+public class Demo03 {
 
     public static void main(String[] args) {
 
