@@ -12,7 +12,7 @@
 - Inheritance
 - Classes's this() and super() methods, and methods overriding
 - Packages structure
-- 
+- Final keyword
 
 ---
 #### ADVANCED JAVA:
