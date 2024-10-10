@@ -1,5 +1,5 @@
-import a.*; // "*" import all package's files 
-import a.b.*;
+import a.A; // "*" import all package's files 
+import a.b.B;
 
 public class Demo10 {
     public static void main(String[] args) {
