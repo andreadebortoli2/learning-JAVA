@@ -40,8 +40,9 @@ public class QuestionService {
             for (String opt : options) {
                 System.out.println("- " + opt);
             }
-            Scanner sc = new Scanner(System.in);
-            selections[i] = sc.nextLine();
+            try (Scanner sc = new Scanner(System.in)) {
+                selections[i] = sc.nextLine();
+            }
             i++;
         }
 
