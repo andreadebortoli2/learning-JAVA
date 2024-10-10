@@ -1,6 +1,6 @@
 # learning-JAVA
 ---
-Basic JAVA:
+#### CORE JAVA:
 - Hello world
 - Variables, Data Types, Literal, Type Conversion
 - Operators, Conditional Statements, Loops
@@ -11,3 +11,9 @@ Basic JAVA:
 - Encapsulation: constructor, getters and setters
 - Inheritance
 - Classes's this() and super() methods, and methods overriding
+- Packages structure
+- 
+
+---
+#### ADVANCED JAVA:
+- 
