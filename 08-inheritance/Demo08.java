@@ -1,4 +1,4 @@
-public class Demo {
+public class Demo08 {
     public static void main(String[] args) {
         Calc d = new Calc();
         int r0 = d.add(6, 7);

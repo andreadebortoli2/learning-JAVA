@@ -10,3 +10,4 @@ Basic JAVA:
 - About Static keyword
 - Encapsulation: constructor, getters and setters
 - Inheritance
+- Classes's this() and super() methods, and methods overriding
