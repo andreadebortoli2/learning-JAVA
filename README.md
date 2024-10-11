@@ -17,3 +17,4 @@
 ---
 #### ADVANCED JAVA:
 - Learning Project (quiz game)
+- More on classes: abstract, inner, static inner, anonymouys inner and anonymous abstract inner
