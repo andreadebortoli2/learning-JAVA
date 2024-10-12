@@ -23,3 +23,4 @@
 - Functional interface and lambda expression
 - Exceptions
 - Threads
+- Collections
