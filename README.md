@@ -25,3 +25,4 @@
 - Threads
 - Collections
 - Streams
+- Optional class, method reference and constructor reference
