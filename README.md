@@ -26,3 +26,11 @@
 - Collections
 - Streams
 - Optional class, method reference and constructor reference
+
+---
+#### MAVEN:
+- Example project
+
+---
+#### JDBC:
+- 
