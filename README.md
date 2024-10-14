@@ -29,8 +29,19 @@
 
 ---
 #### MAVEN:
-- Example project
+- Example project with Archetype
 
 ---
 #### JDBC:
-- 
+- Import package
+- Load and Register
+- Create Connection
+- Create Statement
+- Execute Statement
+  - CRUD
+    - create
+    - read
+    - update
+    - delete
+  - Prepared Statement
+- Close Connection
