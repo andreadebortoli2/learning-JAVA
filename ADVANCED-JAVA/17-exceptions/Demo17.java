@@ -4,7 +4,7 @@ class CustomException extends Exception {
     }
 }
 
-class A {
+class A17 {
     public void showClassName() throws Exception {
         Class.forName("Calc");
     }
@@ -33,7 +33,7 @@ public class Demo17 {
 
         System.out.println("Bye");
 
-        A a = new A();
+        A17 a = new A17();
         try {
             a.showClassName();
         } catch (Exception e) {

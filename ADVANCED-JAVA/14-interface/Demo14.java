@@ -1,18 +1,18 @@
-interface A {
+interface A14 {
 
     int n = 2; // by default final and static
 
     void show(); // by default public and abstract
 }
 
-interface C {
+interface C14 {
     void run();
 }
 
-interface D extends C {
+interface D14 extends C14 {
 }
 
-class B implements A, D {
+class B14 implements A14, D14 {
     public void show() {
         System.out.println("implements show method from interface");
     }
@@ -25,13 +25,13 @@ class B implements A, D {
 public class Demo14 {
     public static void main(String[] args) {
 
-        A a;
-        System.out.println(A.n);
+        A14 a;
+        System.out.println(A14.n);
 
-        a = new B();
+        a = new B14();
         a.show();
 
-        B b = new B();
+        B14 b = new B14();
         b.show();
         b.run();
 

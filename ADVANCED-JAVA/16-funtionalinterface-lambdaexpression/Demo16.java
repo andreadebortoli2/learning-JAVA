@@ -1,33 +1,33 @@
 @FunctionalInterface
-interface A { // functoinal interface / SAM single abstract interface
+interface A16 { // functoinal interface / SAM single abstract interface
     void show();
 }
 
 @FunctionalInterface
-interface B {
+interface B16 {
     void show(String arg);
 }
 
 @FunctionalInterface
-interface C {
+interface C16 {
     void show(int n, String arg);
 }
 
 @FunctionalInterface
-interface D {
+interface D16 {
     int add(int n1, int n2);
 }
 
-interface Z { // marker interface
+interface Z16 { // marker interface
 }
 
 public class Demo16 {
     public static void main(String[] args) {
 
-        A a = () -> System.out.println("lambda expression"); // lambda expression
-        B b = arg -> System.out.println("lambda expression with " + arg);
-        C c = (int n, String arg) -> System.out.println("lambda expression with " + n + " " + arg);
-        D d = (int n1, int n2) -> n1 + n2;
+        A16 a = () -> System.out.println("lambda expression"); // lambda expression
+        B16 b = arg -> System.out.println("lambda expression with " + arg);
+        C16 c = (int n, String arg) -> System.out.println("lambda expression with " + n + " " + arg);
+        D16 d = (int n1, int n2) -> n1 + n2;
 
         a.show();
         b.show("one argument");
